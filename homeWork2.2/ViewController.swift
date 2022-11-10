@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var redSignal: UIView!
+    @IBOutlet var yellowSignal: UIView!
+    @IBOutlet var greenSignal: UIView!
+    
+    @IBOutlet var changeSignalButtom: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
-
+    @IBAction func changeSignalAction() {
+    }
+    
 }
 
